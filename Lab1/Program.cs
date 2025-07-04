@@ -100,12 +100,6 @@ class Program
 
         intValue--; // decrement
         Console.WriteLine("After decrement (--): " + intValue);
-
-
-
-
-
-
     
     } 
 }
