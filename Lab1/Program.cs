@@ -95,10 +95,10 @@ class Program
         
         Console.WriteLine("Initial Value " +intValue);
 
-        intValue++;
+        intValue++; // increment
         Console.WriteLine("After increment (++): " + intValue);
 
-        intValue--;
+        intValue--; // decrement
         Console.WriteLine("After decrement (--): " + intValue);
 
 
