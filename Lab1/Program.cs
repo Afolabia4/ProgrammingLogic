@@ -41,8 +41,8 @@ class Program
 
         Console.WriteLine("Original double value " + doubleValue + ".");
         Console.WriteLine("Explicit casting original double value to Int " + CastToInt + ".");
-        Console.WriteLine("Converting Int to String " + intToString + ".");
-        Console.WriteLine("Converting Bool to String " + boolToString + ".");
+        Console.WriteLine("Converting int to string " + intToString + ".");
+        Console.WriteLine("Converting bool to string " + boolToString + ".");
 
         // Step 6: User Input and Type Conversion
 
@@ -52,7 +52,7 @@ class Program
         Console.Write("Please input your age: ");
         int userAge = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Hello, Nice to meet you " + userName + ", you are " + userAge + " years old, thank you!");
+        Console.WriteLine("Hello, Nice to meet you " + userName + ", you are " + userAge + " years old. thank you!");
 
         // Step 7: Arithmetic Operators
 
@@ -87,7 +87,7 @@ class Program
         double doubleInput = 1.123456789;
 
         Console.WriteLine("Float Value: " + floatInput); // The float input is rounded up to 1.1234568, which is only about 7 digits of precision and without f at the end you would get an error message.
-        Console.WriteLine("Double Value: " + doubleInput); // The double input displays the full 1.123456789, showing it can store more precise numbers, from review 15-16 digits.
+        Console.WriteLine("Double Value: " + doubleInput); // The double input displays the full 1.123456789, showing it can store more precise numbers, from my review 15-16 digits.
 
         //Step 9: Increment and Decrement
 
