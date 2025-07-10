@@ -84,7 +84,7 @@ class Program
                 Console.WriteLine("Saturday");
                 break;
             case 7:
-                Console.WriteLine("Friday");
+                Console.WriteLine("Sunday");
                 break;
             default:
                 Console.WriteLine("Invalid Day!");
