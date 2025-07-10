@@ -10,7 +10,7 @@ class Program
            */
 
         // Step 2: Basic Output
-
+        
         Console.WriteLine("Afolabi Adelakun");
         Console.WriteLine("IT-1050 - Lab 1");
 
