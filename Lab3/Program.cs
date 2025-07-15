@@ -62,6 +62,7 @@ class Program
         string input = Console.ReadLine();
 
         int dayOfTheWeekNumber;
+
         if (int.TryParse(input, out dayOfTheWeekNumber) && dayOfTheWeekNumber >= 1 && dayOfTheWeekNumber <= 7)
         {
             Console.WriteLine("Day : " + daysOfTheWeek[dayOfTheWeekNumber - 1]);
@@ -74,8 +75,8 @@ class Program
         //Problem 7: Favorite Books and Authors
 
         Console.WriteLine("\nAnswer 7: ");
-        string[] favoriteBooks = { "Rich Dad, Poor Dad ", "Without A Silver Spoon ", "Richest Man in Babylon" };
-        string[] favoriteBooksAuthors = { "Robert Kiyosaki & Sharon Lechter", "Eddie Iroh", "George Samuel Clason" };
+        string[] favoriteBooks = { "Rich Dad, Poor Dad ", "Without A Silver Spoon ", "Richest Man in Babylon " };
+        string[] favoriteBooksAuthors = { "Robert Kiyosaki & Sharon Lechter.", "Eddie Iroh.", "George Samuel Clason. " };
         for (int i = 0; i < favoriteBooks.Length; i++)
         {
             Console.WriteLine(favoriteBooks[i] + "by " + favoriteBooksAuthors[i]);
