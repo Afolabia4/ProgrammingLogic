@@ -15,6 +15,7 @@ public class Cat : Animal //Step 2 – Create Derived Classes. This is for Cat
         Console.WriteLine("The cat says: meow");
     }
 }
+
 public class Dog : Animal // Created Derived Class Dog
 {
     public override void animalSound() //Override the animalSound method
@@ -23,6 +24,7 @@ public class Dog : Animal // Created Derived Class Dog
     }
 
 }
+
 public class Program //Step 3 – Test in Main()
 {
     public static void Main()
